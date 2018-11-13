@@ -15,30 +15,31 @@ const containerStyles = {
   padding: "15px"
 };
 const buttonStyles = {
-  padding: "5px",
+  padding: "8px",
   textAlign: "center",
   backgroundColor: "#d8d8d8",
   fontWeight: "bold",
-  cursor: "pointer"
+  cursor: "pointer",
+  borderRadius: "3px"
 };
 const clearStyles = {
   ...buttonStyles,
-  marginBottom: "15px"
+  marginBottom: "20px"
 };
 const optionStyles = {
-  marginBottom: "5px",
+  marginBottom: "8px",
   cursor: "pointer"
 };
 const rankStyles = {
   ...buttonStyles,
   display: "inline-block",
+  marginRight: "8px",
   width: "20px",
-  height: "20px",
-  marginRight: "5px"
+  height: "20px"
 };
 const submitStyles = {
   ...buttonStyles,
-  marginTop: "15px",
+  marginTop: "20px",
   backgroundColor: "#00b06f",
   color: "white"
 };
