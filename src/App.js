@@ -84,6 +84,7 @@ class App extends Component {
   render() {
     return (
       <div style={containerStyles}>
+        <h1 style={{ textAlign: "center" }}>Rank your favorite candidates</h1>
         <div onClick={this.handleClear} style={clearStyles}>
           Clear all
         </div>
