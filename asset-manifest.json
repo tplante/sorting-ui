@@ -1,13 +1,13 @@
 {
   "main.css": "/sorting-ui/static/css/main.f4a0f539.chunk.css",
-  "main.js": "/sorting-ui/static/js/main.ef5858fb.chunk.js",
-  "main.js.map": "/sorting-ui/static/js/main.ef5858fb.chunk.js.map",
+  "main.js": "/sorting-ui/static/js/main.9337c771.chunk.js",
+  "main.js.map": "/sorting-ui/static/js/main.9337c771.chunk.js.map",
   "static/js/1.adf97d99.chunk.js": "/sorting-ui/static/js/1.adf97d99.chunk.js",
   "static/js/1.adf97d99.chunk.js.map": "/sorting-ui/static/js/1.adf97d99.chunk.js.map",
   "runtime~main.js": "/sorting-ui/static/js/runtime~main.fafe1a96.js",
   "runtime~main.js.map": "/sorting-ui/static/js/runtime~main.fafe1a96.js.map",
   "static/css/main.f4a0f539.chunk.css.map": "/sorting-ui/static/css/main.f4a0f539.chunk.css.map",
   "index.html": "/sorting-ui/index.html",
-  "precache-manifest.39d02c220fa4d06f5cf0d6444d14c2e4.js": "/sorting-ui/precache-manifest.39d02c220fa4d06f5cf0d6444d14c2e4.js",
+  "precache-manifest.a06e821e9053e2eba9630ebd006ec015.js": "/sorting-ui/precache-manifest.a06e821e9053e2eba9630ebd006ec015.js",
   "service-worker.js": "/sorting-ui/service-worker.js"
 }
