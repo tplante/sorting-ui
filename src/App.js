@@ -83,27 +83,31 @@ class App extends Component {
 
   render() {
     return (
-      <div style={containerStyles}>
+      <React.Fragment>
         <h1 style={{ textAlign: "center" }}>Rank your favorite candidates</h1>
-        <div onClick={this.handleClear} style={clearStyles}>
-          Clear all
-        </div>
-        {this.state.options.map((option, i) => (
-          <div
-            key={`${option.candidate}-${i}`}
-            onClick={() => this.handleClick(i)}
-            style={optionStyles}
-          >
-            <div style={rankStyles}>
-              <div style={{ opacity: option.rank ? 1 : 0 }}>{option.rank}</div>
-            </div>
-            {option.candidate}
+        <div style={containerStyles}>
+          <div onClick={this.handleClear} style={clearStyles}>
+            Clear all
           </div>
-        ))}
-        <div onClick={this.handleSubmit} style={submitStyles}>
-          {this.state.submitted ? "Nice!" : "Submit"}
+          {this.state.options.map((option, i) => (
+            <div
+              key={`${option.candidate}-${i}`}
+              onClick={() => this.handleClick(i)}
+              style={optionStyles}
+            >
+              <div style={rankStyles}>
+                <div style={{ opacity: option.rank ? 1 : 0 }}>
+                  {option.rank}
+                </div>
+              </div>
+              {option.candidate}
+            </div>
+          ))}
+          <div onClick={this.handleSubmit} style={submitStyles}>
+            {this.state.submitted ? "Nice!" : "Submit"}
+          </div>
         </div>
-      </div>
+      </React.Fragment>
     );
   }
 }
