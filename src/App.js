@@ -6,21 +6,11 @@ const options = [
   { candidate: "Hillary Clinton", rank: 0 },
   { candidate: "Bernie Sanders", rank: 0 },
   { candidate: "Marco Rubio", rank: 0 },
-  { candidate: "Donald Trump", rank: 0 },
-  { candidate: "Barack Obama", rank: 0 },
-  { candidate: "George Bush", rank: 0 },
-  { candidate: "Hillary Clinton", rank: 0 },
-  { candidate: "Bernie Sanders", rank: 0 },
-  { candidate: "Marco Rubio", rank: 0 },
-  { candidate: "Donald Trump", rank: 0 },
-  { candidate: "Barack Obama", rank: 0 },
-  { candidate: "George Bush", rank: 0 },
-  { candidate: "Hillary Clinton", rank: 0 },
-  { candidate: "Bernie Sanders", rank: 0 },
-  { candidate: "Marco Rubio", rank: 0 },
-  { candidate: "Donald Trump", rank: 0 },
-  { candidate: "Barack Obama", rank: 0 },
-  { candidate: "George Bush", rank: 0 }
+  { candidate: "George Washington", rank: 0 },
+  { candidate: "John Adams", rank: 0 },
+  { candidate: "Abraham Lincoln", rank: 0 },
+  { candidate: "Franklin D. Roosevelt", rank: 0 },
+  { candidate: "Ron Swanson", rank: 0 }
 ];
 
 const containerStyles = {
